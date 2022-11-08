@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="taskseleniumfirst.retails">
+        <methods>
+          <include name="books"/>
+          <include name="setdown"/>
+          <include name="setup"/>
+          <include name="pen"/>
+          <include name="box"/>
+        </methods>
+      </class> <!-- taskseleniumfirst.retails -->
+      <class name="taskseleniumfirst.birds">
+        <methods>
+          <include name="setdown"/>
+          <include name="beers"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- taskseleniumfirst.birds -->
+      <class name="taskseleniumfirst.animal">
+        <methods>
+          <include name="dogs"/>
+          <include name="cat"/>
+          <include name="setup"/>
+          <include name="cows"/>
+          <include name="setdown"/>
+        </methods>
+      </class> <!-- taskseleniumfirst.animal -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
